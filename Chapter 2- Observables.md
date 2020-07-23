@@ -12,11 +12,13 @@
 `complete ` | 성공적으로 이벤트 시퀀스를 종료시키는 이벤트. 더이상 값을 emit 하지 않는다.
 
 
+<img src="img/completed.png" width="400">
 
-![completed](./img/completed.png)
 next를 통해 1,2,3을 emit 하는 Observable
 
-![error]( ./img/error.png)
+
+<img src="img/error.png" width="400">
+
 세번의 tap 이벤트를 emit후, complete 를 통해 종료되는 Observable
 
 
