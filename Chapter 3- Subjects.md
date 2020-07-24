@@ -11,4 +11,16 @@
 `ReplaySubject ` | n개의 이벤트를 저장하고 subscribe 가 되는 시점과 상관없이 모든 이벤트를 전달한다.
 
 
+### Hot Observable vs Cold Observable
+> 방출 되는 시점에 따라 분류
+
+#### 1. Hot Observable
+- 생성과 동시에 이벤트를 방출하기 시작하는 Observable.
+- Subscribe 되는 시점과 상관없이 Observer 에게 이벤트를 중간부터 전송한다.
+
+####  2. Cold Observable
+- Subscribe 되는 시점부터 이벤트를 생성해 방출한다.
+
+[관련 링크](https://brunch.co.kr/@tilltue/18) 는 여기에 !!
+
 
